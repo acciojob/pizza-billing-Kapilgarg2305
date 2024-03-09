@@ -10,12 +10,12 @@ public class Pizza {
     public Pizza(Boolean isVeg){
         this.isVeg = isVeg;
        if(isVeg) {
-           System.out.println("Base Price Of The Pizza: 300");
+           //System.out.println("Base Price Of The Pizza: 300");
            price=300;
            bill=300;
        }
        else {
-           System.out.println("Base Price Of The Pizza: 400");
+          // System.out.println("Base Price Of The Pizza: 400");
            price =400;
            bill= 400;
        }
@@ -31,7 +31,7 @@ public class Pizza {
         if(a==0){
         price=80;
         bill=bill+80;
-        System.out.println("Extra Cheese Added: 80");
+        //System.out.println("Extra Cheese Added: 80");
         a++;
     }
 
@@ -41,12 +41,12 @@ public class Pizza {
         // your code goes here
        if(b==0) {
             if (isVeg) {
-                System.out.println("Extra Toppings Added: 70");
+                //System.out.println("Extra Toppings Added: 70");
                 price = 70;
                 bill = bill + 70;
                 b++;
             } else {
-                System.out.println("Extra Toppings Added: 120");
+              //  System.out.println("Extra Toppings Added: 120");
                 price = 120;
                 bill = bill + 120;
                 b++;
@@ -58,7 +58,7 @@ public class Pizza {
         // your code goes here
         price =20;
         bill=bill+20;
-        System.out.println("Paperbag Added: 20");
+        //System.out.println("Paperbag Added: 20");
     }
 
     public String getBill(){
